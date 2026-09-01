@@ -1,0 +1,7 @@
+onnxruntime>=1.18
+numpy>=1.26
+PyYAML>=6.0
+requests>=2.31
+# torch is used ONLY for tensor plumbing in the map loader (lib/predict.py);
+# CPU wheels are fine -- inference itself is all onnxruntime.
+torch>=2.2
