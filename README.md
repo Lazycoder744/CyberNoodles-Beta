@@ -8,13 +8,13 @@ Test your projects and fun little prototypes with my model that is going to play
 
 ## How you would use it
 
-pip install -r requirements.txt # Install the stuff from the requirements.txt
+`pip install -r requirements.txt` -- Install the stuff from the requirements.txt
 
-python generate_replay.py 464f2 # Generate a replay with the BSR Code 464f2.
+`python generate_replay.py 464f2` -- Generate a replay with the BSR Code 464f2.
 
-python generate_replay.py 464f2 --difficulty ExpertPlus # Generate that replay, but specify ExpertPlus!
+`python generate_replay.py 464f2 --difficulty ExpertPlus` -- Generate that replay, but specify ExpertPlus!
 
-python generate_replay.py 464f2 --max-windows 40 # Generate a certain amount of replay (40 Windows = ~0.25 seconds?)
+`python generate_replay.py 464f2 --max-windows 40` -- Generate a certain amount of replay (40 Windows = ~0.25 seconds?)
 
 It will output your good old standard BSOR :)
 
